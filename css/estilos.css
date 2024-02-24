@@ -68,6 +68,13 @@ footer
     border-radius: 20px;
     padding: 6px;
     margin: 4px;
-    width: 568px;
+    width: 700px;
     text-align: center;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: rgb(139, 4, 65);
+    margin-left: 10px;
 }
