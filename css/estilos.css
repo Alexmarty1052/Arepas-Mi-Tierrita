@@ -18,7 +18,7 @@ body
     background-size: 100% 100%;
     background-color: rgb(69, 132, 145);
     margin: 4px;
-    padding: 6px 0 595px 0;
+    padding: 6px 0 547px 0;
     border-radius: 20px;
 }
 
@@ -81,4 +81,41 @@ footer a
 a:hover
 {
     color: aqua;
+}
+
+@media (max-width: 640px)
+{
+   #titulo
+   {
+    background-size: 98% 84%;
+    padding: 66px 0 226px 0;
+    margin: 32px 0 0 0;
+   } 
+
+   #titulo h1 
+   {
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+   
+   }
+
+   footer 
+   {
+    margin: 18px 0px 0px 0px;
+   }
+
+   #titulo a
+   {
+    width: 70%;
+   }
+
+   #menu
+   {
+    display: grid;
+    justify-content: space-around;
+    padding: 120px 0 0 0;
+   }
+
+
 }
