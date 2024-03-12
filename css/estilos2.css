@@ -93,3 +93,16 @@ a:hover
 {
     color: aqua;
 }
+
+@media (max-width: 640px)
+{
+    #titulo h1
+    {
+        font-size: 25px;
+    }
+
+    #ingredientes div
+    {
+        text-align: left;
+    }
+}

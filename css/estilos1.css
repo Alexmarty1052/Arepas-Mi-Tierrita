@@ -110,3 +110,28 @@ a:hover
 {
     color: aqua;
 }
+
+@media (max-width: 640px)
+{
+    #titulo h1
+    {
+        font-size: 25px;
+    }
+
+    #container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container div 
+    {
+        padding: 6px;
+        margin: 20px 0 0 0;
+    }
+
+    #menu
+    {
+        display: flex;
+    }
+}
