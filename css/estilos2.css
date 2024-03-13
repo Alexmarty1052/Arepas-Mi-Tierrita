@@ -105,4 +105,10 @@ a:hover
     {
         text-align: left;
     }
+
+    #menu
+    {
+        display: flex;
+        justify-content: space-around
+    }
 }
