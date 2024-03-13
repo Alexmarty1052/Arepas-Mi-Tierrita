@@ -2,12 +2,11 @@
 {
     --primary: rgb(126, 28, 28);
     --secondary: rgb(168, 87, 87);
-    --tertiary: rgb(162, 55, 55);
+    --tertiary: rgb(168, 85, 55);
 }
 
 body 
 {
-    
     background: linear-gradient(var(--primary), var(--secondary));
     color: #121212;
     text-align: justify;
