@@ -1,6 +1,13 @@
+:root
+{
+    --primary: rgba(106, 16, 16, 0.782);
+    --secondary: rgb(165, 61, 61);
+    --tertiary: rgb(162, 55, 55);
+}
+
 body 
 {
-    background-color: rgb(126, 28, 28);
+    background: linear-gradient(var(--primary), var(--secondary));
     color: #121212;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +18,7 @@ body
 
 #titulo
 {
-    background-color: rgb(168, 87, 87);
+    background: linear-gradient(var(--primary), var(--secondary));
     margin: 4px;
     padding: 6px;
     border-radius: 20px;
@@ -32,13 +39,15 @@ body
 #titulo a
 {
     color: rgb(19, 18, 18);
-    background-color: rgb(122, 42, 42);
+    background: linear-gradient(var(--primary), var(--secondary));
     padding: 4px 12px;
     margin: 4px;
     border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
+     border: solid 1px rgb(62, 30, 30);
 }
+
 
 #titulo a:hover
 {
@@ -52,28 +61,31 @@ body
 
 #ingredientes
 {
-    background-color:  rgb(168, 87, 87);
+    background: linear-gradient(var(--primary), var(--secondary));
     padding: 6px;
     margin-top: 46px;
     margin: 4px;
     border-radius: 20px;
+    border: solid 1px rgb(62, 30, 30);
 }
 
 #ingredientes div 
 {
-    background-color: rgb(126, 28, 28);
+    background: linear-gradient(var(--primary), var(--secondary));
     border-radius: 20px;
     padding: 6px;
     margin: 4px;
+    border: solid 1px rgb(62, 30, 30);
 }
 
 footer
 {
    
-    background-color: rgb(168, 87, 87);
+    background-color: var(--tertiary);
     border-radius: 20px;
     padding: 1px;
     margin: 14px 0 0 0;
+    border: solid 1px rgb(62, 30, 30);
 }
 
 footer p
