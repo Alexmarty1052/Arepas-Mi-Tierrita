@@ -1,11 +1,11 @@
 :root
 {
-    --primary: rgb(126, 28, 28);
-    --secondary: rgb(168, 87, 87);
-    --tertiary: rgb(162, 55, 55);
+    --primary: rgb(134, 74, 14);
+    --secondary: rgb(112, 61, 11);
+    --tertiary: rgb(134, 74, 14);
 }
 
-body 
+body
 {
     background: linear-gradient(var(--primary), var(--secondary));
     color: #121212;

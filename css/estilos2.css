@@ -1,8 +1,8 @@
 :root
 {
-    --primary: rgba(106, 16, 16, 0.782);
-    --secondary: rgb(165, 61, 61);
-    --tertiary: rgb(162, 55, 55);
+    --primary: rgb(134, 74, 14);
+    --secondary: rgb(112, 61, 11);
+    --tertiary: rgb(134, 74, 14);
 }
 
 body 
