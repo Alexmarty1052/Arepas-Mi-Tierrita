@@ -1,8 +1,14 @@
 :root
 {
+<<<<<<< HEAD
     --primary: rgb(134, 74, 14);
     --secondary: rgb(112, 61, 11);
     --tertiary: rgb(134, 74, 14);
+=======
+    --primary: rgb(41, 128, 185);
+    --secondary: rgb(84, 153, 199);
+    --tertiary: rgb(127, 179, 213);
+>>>>>>> 0365138a85db1b6342496493e4fe95a40f00b615
 }
 
 body 
