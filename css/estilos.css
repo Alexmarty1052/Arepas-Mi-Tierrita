@@ -22,7 +22,7 @@ html {
 body 
 {
     background: linear-gradient(var(--primary), var(--secondary));
-    width: 80%;
+    width: 90%;
     min-width: 320px;
     max-width: 100%;
     min-height: 100vh;
@@ -47,6 +47,7 @@ body
     min-height: 80vh;
     border-radius: 20px;
     border: solid 2px var(--redcoffe);
+    margin: 10px;
 }
 
 .titulo h1
@@ -177,4 +178,10 @@ footer a:active {
     padding: 10px;
    }
 
+}
+
+@media (min-width: 1024px){
+    body {
+        width: 70%;
+    }
 }
