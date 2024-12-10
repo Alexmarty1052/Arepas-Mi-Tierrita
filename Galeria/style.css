@@ -75,32 +75,10 @@ body {
   text-align: center;
 }
 
-.container {
+main {
   width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 1.6rem;
+  height: 100vh;
 }
-
-.container .foto {
-  background: linear-gradient(var(--tertiary), var(--fourth));
-  display: grid;
-  align-content: center;
-  display: grid;
-  width: 50%;
-  height: 80vh;
-  border: solid 2px var(--redcoffe);
-  margin: 10px auto;
-  border-radius: 20px;
-}
-
-.container .foto img{
-  width: 50%;
-  border: solid 2px var(--redcoffe);
-  border-radius: 20px;
-}
-
-
 
 footer {
 
@@ -131,7 +109,6 @@ footer a:active {
 }
 
 @media (max-width: 640px) {
-
   .titulo {
     width: 100%;
     margin: 10px auto;
@@ -151,19 +128,5 @@ footer a:active {
     width: 100%;
     margin: 4px;
     padding: 0;
-  }
-
-  .container {
-    display: grid;
-    align-items: center;
-    width: 100%;
-    margin: 10px auto;
-  }
-
-  .container .foto {
-    width: 100%;
-    height: 70vh;
-    padding: 6px;
-    margin: 0 auto;
   }
 }
