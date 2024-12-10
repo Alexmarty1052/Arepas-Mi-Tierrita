@@ -93,8 +93,8 @@ body {
 .descripcion {
   background: linear-gradient(var(--tertiary), var(--fourth));
   border-radius: 20px;
-  padding: 12px;
-  margin: 14px 0 0 0;
+  padding: 8px;
+  margin: 0 auto;
   text-align: justify;
   border: solid 1px var(--redcoffe);
 }
@@ -115,7 +115,6 @@ footer {
 footer p {
   text-align: center;
   color: var(--black);
-  padding: 10px;
 }
 
 footer a {
